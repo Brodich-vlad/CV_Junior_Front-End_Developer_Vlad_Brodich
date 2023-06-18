@@ -1,4 +1,4 @@
-import my_photo from "../img/my_photo.jpg";
+﻿import my_photo from "../img/my_photo.jpg";
 import mountains_europe from "../img/projects/mountains-europe.jpg";
 import web_studio from "../img/projects/web-studio.jpg";
 import store_demo from "../img/projects/store-demo.png";
@@ -149,8 +149,8 @@ export const summaryEng = {
             },
             {
                 contactLogo: mail,
-                contact: 'vlad_brodich@ukr.net',
-                href: 'mailto:vlad_brodich@ukr.net',
+                contact: 'brodich_vlad@ukr.net',
+                href: 'mailto:brodich_vlad@ukr.net',
             },
             {
                 contactLogo: telegram,
@@ -299,8 +299,8 @@ export const summaryUk = {
             },
             {
                 contactLogo: mail,
-                contact: 'vlad_brodich@ukr.net',
-                href: 'mailto:vlad_brodich@ukr.net',
+                contact: 'brodich_vlad@ukr.net',
+                href: 'mailto:brodich_vlad@ukr.net',
             },
             {
                 contactLogo: telegram,
