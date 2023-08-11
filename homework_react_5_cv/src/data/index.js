@@ -223,7 +223,7 @@ export const summaryUk = {
             {
                 title: 'Онлайн-гра "Сапер."',
                 technologies: "[ React.js, Aдаптивний CSS ]",
-                text: 'Домашня робота з React.js прєкт "Онлайн-гра "Сапер" - Моє особисте бачення популярної гри в сучасних реаліях.',
+                text: 'Домашня робота з React.js проєкт "Онлайн-гра "Сапер" - Моє особисте бачення популярної гри в сучасних реаліях.',
                 img: sapper,
                 linkProject: 'https://homeork-game-sapper.netlify.app/',
                 linkGitNub: 'https://github.com/Brodich-vlad/homework_6_game_sapper.git',
