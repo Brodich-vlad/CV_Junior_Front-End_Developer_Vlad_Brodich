@@ -231,7 +231,7 @@ export const summaryUk = {
             {
                 title: 'Таймер.',
                 technologies: "[ React, Redux, JavaScript, HTML/Aдаптивний CSS ]",
-                text: 'Домашня робота з React.js Redux  "Таймер" - Використання Redux в React прєктах.',
+                text: 'Домашня робота з React.js Redux  "Таймер" - Використання Redux в React проєктах.',
                 img: timer,
                 linkProject: 'https://homework-react-redux-9-timer.netlify.app/',
                 linkGitNub: 'https://github.com/Brodich-vlad/homework-react-redux-timer.git',
@@ -248,7 +248,7 @@ export const summaryUk = {
             {
                 title: 'Зоряне небо',
                 technologies: "[ React.js ]",
-                text: 'Домашня робота з React.js прєкт "Зоряне небо" - Космічна тема, багато анімації мені дуже подобаються такі макети.',
+                text: 'Домашня робота з React.js проєкт "Зоряне небо" - Космічна тема, багато анімації мені дуже подобаються такі макети.',
                 img: starry_sky,
                 linkProject: 'https://magenta-youtiao-d965af.netlify.app/',
                 linkGitNub: 'https://github.com/Brodich-vlad/homework_react_starry-sky.git',
@@ -272,7 +272,7 @@ export const summaryUk = {
             {
                 title: 'Записник',
                 technologies: "[ React.js ]",
-                text: "Домашня робота з React.js прєкт 'Записник' - Створення та редагування списку продуктів.",
+                text: "Домашня робота з React.js проєкт 'Записник' - Створення та редагування списку продуктів.",
                 img: notebook_uk,
                 linkProject: 'https://ephemeral-klepon-13494c.netlify.app/',
                 linkGitNub: 'https://github.com/Brodich-vlad/homework_react_3_notebook.git',
