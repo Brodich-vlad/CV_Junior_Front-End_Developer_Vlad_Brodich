@@ -12,7 +12,7 @@ export function Footer({data,lang}){
     })
 
     return(
-        <footer className="footer">
+        <footer className="footer" id="contact">
             <div className="footer__contact">
                 <h2 className="footer__contact-title" lang={lang}>{data.title}</h2>
                 <ul className="footer__contact-list">
