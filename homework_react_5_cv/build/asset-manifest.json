@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0dbbf398.css",
-    "main.js": "/static/js/main.6a8e137d.js",
+    "main.js": "/static/js/main.df1bfea1.js",
     "static/media/homework_react_starry_sky.png": "/static/media/homework_react_starry_sky.4c57e283ab8728ed93e5.png",
     "static/media/store-demo.png": "/static/media/store-demo.210154cbd0e0a82d6cf4.png",
     "static/media/movie_tickets.png": "/static/media/movie_tickets.3f173946da99faf25646.png",
@@ -10,8 +10,6 @@
     "static/media/mountains-europe.jpg": "/static/media/mountains-europe.c62b94493f18bba5eb2e.jpg",
     "static/media/homework_react_sapper.jpg": "/static/media/homework_react_sapper.50b17f45a5ed803a0f13.jpg",
     "static/media/web-studio.jpg": "/static/media/web-studio.5af8def16d63a6c88586.jpg",
-    "static/media/barber_shop.jpg": "/static/media/barber_shop.5d1aded7792a862252b9.jpg",
-    "static/media/dream-pizza.jpg": "/static/media/dream-pizza.f650361865a1aca44e61.jpg",
     "static/media/my_photo.jpg": "/static/media/my_photo.8af0e845776db2a89762.jpg",
     "static/media/homework_notebook_uk.jpg": "/static/media/homework_notebook_uk.a6c837df0589e62f0dee.jpg",
     "static/media/homework__notebook_en.jpg": "/static/media/homework__notebook_en.c9a6ef60f3a4ad055a16.jpg",
@@ -38,10 +36,10 @@
     "index.html": "/index.html",
     "static/media/sun.svg": "/static/media/sun.3c4f606928e2d3880cd859c063258dd0.svg",
     "main.0dbbf398.css.map": "/static/css/main.0dbbf398.css.map",
-    "main.6a8e137d.js.map": "/static/js/main.6a8e137d.js.map"
+    "main.df1bfea1.js.map": "/static/js/main.df1bfea1.js.map"
   },
   "entrypoints": [
     "static/css/main.0dbbf398.css",
-    "static/js/main.6a8e137d.js"
+    "static/js/main.df1bfea1.js"
   ]
 }

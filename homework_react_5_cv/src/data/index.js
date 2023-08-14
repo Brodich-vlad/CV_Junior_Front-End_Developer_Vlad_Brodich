@@ -4,11 +4,9 @@ import mountains_europe from "../img/projects/mountains-europe.jpg";
 import web_studio from "../img/projects/web-studio.jpg";
 import store_demo from "../img/projects/store-demo.png";
 import calculator from "../img/projects/calculator.jpg";
-import barber_shop from "../img/projects/barber_shop.jpg";
 import starry_sky from "../img/projects/homework_react_starry_sky.png";
 import notebook_en from "../img/projects/homework__notebook_en.jpg";
 import notebook_uk from "../img/projects/homework_notebook_uk.jpg";
-import dream_pizza from "../img/projects/dream-pizza.jpg";
 import sapper from "../img/projects/homework_react_sapper.jpg";
 import movie from "../img/projects/movie_tickets.png";
 import timer from "../img/projects/timer.png";
@@ -25,7 +23,7 @@ import certificate_html from "../img/certificates/certificate_html.jpg";
 
 export const summaryEng = {
     langPage: "en",
-    name: 'Vlad Brodych',
+    name: 'Vlad Brodich',
     profession: 'Front-End Developer',
     photo: my_photo,
     about: {
@@ -109,22 +107,6 @@ export const summaryEng = {
                 linkProject: 'https://genuine-starburst-33ab73.netlify.app/',
                 linkGitNub: 'https://github.com/Brodich-vlad/homework_js_online-calculator.git',
             },
-            {
-                title: 'Dream Pizza',
-                technologies: "[ JavaScript ]",
-                text: 'Homework with JavaScript project "Pizza of dreams" - Studying the events of dragging and dropping images in JavaScript.',
-                img: dream_pizza,
-                linkProject: 'https://thunderous-kataifi-d1d2fa.netlify.app/',
-                linkGitNub: 'https://github.com/Brodich-vlad/homework_js_dream-pizza.git',
-            },
-            {
-                title: 'Barbershop',
-                technologies: "[ HTML, CSS Аnimation, BOOTSTRAP ]",
-                text: 'Homework with HTML project "Barbershop" - learning CSS animation and familiarization with the BOOTSTRAP library.',
-                img: barber_shop,
-                linkProject: 'https://peaceful-tartufo-7aeff8.netlify.app/',
-                linkGitNub: 'https://github.com/Brodich-vlad/homework_html_Barbershop.git',
-            },
         ],
         btnMore: 'More projects . . .',
     },
@@ -148,6 +130,11 @@ export const summaryEng = {
     education: {
         title: 'Education',
         schools: [
+            {
+                profession: 'Front-End Advanced Cursor Online',
+                school: 'Programming school Cursor, Ukraine',
+                date: 'AUGUST 2023 | (until now)',
+            },
             {
                 profession: 'Front-End Online',
                 school: 'Programming school Philip Sevene, Ukraine',
@@ -285,22 +272,6 @@ export const summaryUk = {
                 linkProject: 'https://genuine-starburst-33ab73.netlify.app/',
                 linkGitNub: 'https://github.com/Brodich-vlad/homework_js_online-calculator.git',
             },
-            {
-                title: 'Піца мрії',
-                technologies: "[ JavaScript ]",
-                text: 'Домашня робота з JavaScript проект "Піца мрії" - Вивчення подій перетягування картинок в JavaScript.',
-                img: dream_pizza,
-                linkProject: 'https://thunderous-kataifi-d1d2fa.netlify.app/',
-                linkGitNub: 'https://github.com/Brodich-vlad/homework_js_dream-pizza.git',
-            },
-            {
-                title: 'Barbershop',
-                technologies: "[  Семантичний HTML, Aнімація CSS, BOOTSTRAP ]",
-                text: "Домашня робота з HTML проект «Barbershop» - вивчення CSS анімації та ознайомлення з бібліотекою BOOTSTRAP",
-                img: barber_shop,
-                linkProject: 'https://peaceful-tartufo-7aeff8.netlify.app/',
-                linkGitNub: 'https://github.com/Brodich-vlad/homework_html_Barbershop.git',
-            },
         ],
         btnMore: 'Більше проєктів . . .',
     },
@@ -324,6 +295,11 @@ export const summaryUk = {
     education: {
         title: 'Освіта',
         schools: [
+            {
+                profession: 'Front-End Advanced Cursor Онлайн',
+                school: 'Школа програмування Cursor, Україна',
+                date: 'СЕРПЕНЬ 2023 | (по теперішній час)',
+            },
             {
                 profession: 'Front-End Онлайн',
                 school: 'Школа програмування Philip Sevene, Україна',
