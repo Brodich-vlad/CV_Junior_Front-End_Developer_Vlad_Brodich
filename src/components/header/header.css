@@ -1,0 +1,247 @@
+.header{
+  padding: 2rem;
+  position: relative;
+}
+.header__nav{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.header__logo{
+  display: block;
+  font-family: var(--font-kalam);
+  font-style: italic;
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--main-color-logo);
+}
+.header__logo span{
+  display: inline-block;
+  color: var(--main-color-black);
+  margin-left: .3rem;
+}
+
+.header__nav-list{
+  display: flex;
+  align-items: center;
+  margin-right: 5%;
+}
+.header__nav-list__item{
+    margin-right: 1rem;
+}
+.header__nav-list__item > a{
+  display: inline-block;
+  padding: .5rem;
+  font-size: 1.5rem;
+  color: var(--main-color-black);
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all .3s;
+}
+.header__nav-list__item > a:hover{
+color: var(--main-color-logo);
+}
+.header__nav-btns{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5tem;
+}
+.header__nav-btn{
+  margin-right: 1rem;
+}
+
+
+/* Перемикач день ніч. */
+.header__nav-btn__light {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  gap: 1rem;
+}
+.header__nav-btn__light_input{
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.header__nav-btn__light___display {
+  --offset: 0.15rem;
+  --diameter: 1.2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  box-sizing: content-box;
+  width: calc(var(--diameter) * 2 + var(--offset) * 2);
+  height: calc(var(--diameter) + var(--offset) * 2);
+  position: relative;
+  background: var( --main-color-black);
+  border: none;
+  border-radius: 10rem;
+  transition: 250ms;
+}
+
+.sun{
+  display: block;
+  width: 1.1rem;
+}
+.moon{
+  display: block;
+  width: 1.2rem; 
+}
+
+.header__nav-btn__light___display::before {
+  content: "";
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: var(--offset);
+  box-sizing: border-box;
+  width: var(--diameter);
+  height: var(--diameter);
+  border-radius: 50%;
+  background: var( --main-color-black);
+  transform: translate(100%, -50%);
+  will-change: transform;
+  transition: inherit;
+  transition: all .6s;
+}
+
+.header__nav-btn__light_input:checked + .header__nav-btn__light___display::before {
+  transform: translate(0, -50%);
+  background: var( --main-color-black);
+}
+
+.header__nav-btn__light_input:checked + .header__nav-btn__light___display {
+  background: var( --main-color-black);
+}
+
+.btn-lang{
+  background: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: .5rem;
+  color: var( --main-color-black);
+  position: relative;
+}
+
+.btn-lang_txt{
+  display: block;
+  text-transform: uppercase; 
+  font-size: 1rem;
+  padding: .2rem;
+  border-radius: .5rem;
+  background: var(--main-background-title);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.btn-lang_txt-second{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase; 
+  position: absolute;
+  right: -2.2rem;
+  height: 0;
+  overflow: hidden;
+  transition: all .3s;
+}
+
+.btn-lang img{
+  display: block;
+  width: 2.3rem;
+}
+
+.btn-lang:hover .btn-lang_txt-second{
+  height: 100%;
+}
+
+
+
+.burger-btn{
+  padding: .6rem .4rem;
+  border-top: .1rem solid var(--main-color-black);
+  border-bottom: .1rem solid var(--main-color-black);
+  cursor: pointer;
+  position: absolute;
+  top: 2.5rem;
+  left: 4rem;
+  display: none;
+}
+.burger-btn div{
+  width: 1.8rem;
+  height: .1rem;
+  background: var(--main-color-black);
+  transition: all 1s;
+}
+
+@media (max-width: 875px){
+  .header{
+    padding: 1rem;
+    position: fixed;
+    z-index: 6;
+    background: var(--about-background-title);
+    width: 100%;
+  }
+  .header__nav{
+    width: 80%;
+    justify-content: space-around;
+  }
+  .burger-btn{
+    display: block;
+    transition: all 1s;
+    z-index: 5;
+    background: none;
+    top: 1.5rem;
+    left: 2rem;
+  }
+
+  .header__nav-list{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    align-items: start;
+    padding: 8rem 5rem;
+    background: var(--menu-background);
+    z-index: 3;
+    transform: translateX(-100%);
+    transition: all 1s;
+  }
+  .header__nav-list__item{
+    padding-left: 5rem;
+    margin: 1rem;
+    width: 80%;
+    position: relative;
+  }
+  .header__nav-list__item > a{
+    width: 100%;
+    border-radius: .5rem;
+    font-size: 2rem;
+    color: var(--menu-color);
+  }
+  .header__nav-list._open{
+    transform: translateX(0);
+  }
+
+  .burger-btn._open{
+    border-top: .1rem solid var(--menu-color);
+    border-bottom: .1rem solid var(--menu-color);
+    transform: translateX(80vw);
+  }
+  .burger-btn._open > div{
+    background: var(--menu-color);
+  }
+}

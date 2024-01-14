@@ -1,0 +1,70 @@
+/* Контакти. */
+.footer{
+  display: flex;
+  justify-content: center;
+  padding: 6rem 5%;
+  background: var(--about-background-title);
+}
+.footer__contact{
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem 3rem;
+  border-left: .15rem solid var(--main-color-black);
+  position: relative;
+}
+
+.footer__contact-title{
+  padding-right: 1rem; 
+  width: 12rem;
+  text-align: end;
+  transform: rotate(-90deg);
+  position: absolute;
+  bottom: 0rem;
+  left: -6.5rem;
+  background: var(--about-background-title);
+}
+.footer__contact-list{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer__contact-list__item{
+  margin: .6rem;
+}
+
+.contact-link{
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 500;
+  color: var(--main-color-black);
+  padding: .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .3s;
+}
+
+.contact-logo{
+  width: 1.6rem;
+  margin-right: 1rem;
+  background:var(--main-color-logo);
+  border-radius: .5rem;
+  padding: .3rem;
+}
+.contact-logo img{
+  display: block;
+  width: 100%;
+}
+.contact-link:hover{
+  color:var(--main-color-logo);
+}
+
+@media (max-width: 875px){
+  .footer__contact-list{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
