@@ -1,4 +1,4 @@
-import my_photo from '../img/my_photo.jpg';
+﻿import my_photo from '../img/my_photo.jpg';
 import mountains_europe from '../img/projects/mountains-europe.jpg';
 import web_studio from '../img/projects/web-studio.jpg';
 import store_demo from '../img/projects/store-demo.png';
@@ -11,6 +11,7 @@ import movie from '../img/projects/movie_tickets.png';
 import timer from '../img/projects/timer.png';
 import tetris from '../img/projects/tetris.png';
 import calculator_ios from '../img/projects/calculator_ios.png';
+import rectangle_packing from '../img/projects/rectangle-packing.png';
 
 import phone from '../img/svg-icon/phone.svg';
 import mail from '../img/svg-icon/e-mail_black.svg';
@@ -44,6 +45,14 @@ export const summaryEng = {
 	projects: {
 		title: 'Projects',
 		projects: [
+			{
+				title: 'Algorithm for packing rectangles',
+				technologies: '[ React.js,Typescript, REST API, Aдаптивний CSS,Vite, Zustand, Zod ]',
+				text: 'The test task is to make an algorithm that will arrange the given blocks in the sheet as ergonomically as possible (so that as much space as possible is used) and will produce the smallest possible number of sheets.',
+				img: rectangle_packing,
+				linkProject: 'https://rectangle-packing-algorithm-vb.netlify.app/',
+				linkGitNub: 'https://gitlab.com/vlad_brodich/rectangle-packing-algorithm_vb.git'
+			},
 			{
 				title: 'Tetris online game',
 				technologies: '[ HTML, JavaScript, Adaptive CSS ]',
@@ -151,9 +160,12 @@ export const summaryEng = {
 					'Next.js',
 					'Redux',
 					'Knowledge of version control systems: Git',
-					'Experience with RESTful APIs',
+					'Experience with REST ful APIs',
 					'Understanding the principles of developing adaptive and responsive design',
 					'Basics of UX/UI design',
+					'Experience with development environment customization tools - WebPack, Vite.',
+					'Experience with the state management library - Zustand.',
+					'Data validation with automatic typing using - Zod.',
 					'Ability to work with developer tools(DevTools)'
 				]
 			},
@@ -269,6 +281,14 @@ export const summaryUk = {
 		title: 'Проекти',
 		projects: [
 			{
+				title: 'Алгоритм пакування прямокутників',
+				technologies: '[ React.js,Typescript, REST API, Aдаптивний CSS,Vite, Zustand, Zod ]',
+				text: 'Тестове завдання зробити алгоритм який розташує задані блоки в аркуші максимально ергономічно(щоб як умога більше місця було задіяно) і видасть найменьшу можливу кількість аркущів.',
+				img: rectangle_packing,
+				linkProject: 'https://rectangle-packing-algorithm-vb.netlify.app/',
+				linkGitNub: 'https://gitlab.com/vlad_brodich/rectangle-packing-algorithm_vb.git'
+			},
+			{
 				title: 'Онлайн-гра Тетріс',
 				technologies: '[ HTML, JavaScript, Aдаптивний CSS ]',
 				text: 'Гра Тетріс створена в рамках марафону "Пишемо гру Тетріс на JS" та зайняла перше місце серед кращих проектів.',
@@ -374,9 +394,12 @@ export const summaryUk = {
 					'Next.js',
 					'Redux',
 					'Знання систем контролю версій: Git',
-					'Досвід роботи з RESTful API',
+					'Досвід роботи з REST ful API',
 					'Розуміння принципів розробки адаптивного та респонсивного дизайну',
 					'Основи UX/UI дизайну',
+					'Досвід роботи з інструментами для налаштування середовища розробки - WebPack, Vite',
+					'Досвід роботи з бібліотекою управління станом - Zustand',
+					'Валідація даних з автоматичною типізацією за допомогою - Zod',
 					'Вміння працювати з інструментами розробника (DevTools)'
 				]
 			},
