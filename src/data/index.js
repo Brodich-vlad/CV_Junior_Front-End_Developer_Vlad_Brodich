@@ -1,4 +1,4 @@
-﻿import my_photo from '../img/my_photo.jpg';
+import my_photo from '../img/my_photo.jpg';
 import mountains_europe from '../img/projects/mountains-europe.jpg';
 import web_studio from '../img/projects/web-studio.jpg';
 import store_demo from '../img/projects/store-demo.png';
