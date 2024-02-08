@@ -12,6 +12,7 @@ import timer from '../img/projects/timer.png';
 import tetris from '../img/projects/tetris.png';
 import calculator_ios from '../img/projects/calculator_ios.png';
 import rectangle_packing from '../img/projects/rectangle-packing.png';
+import test_task_img from '../img/projects/test-task-img.png';
 
 import phone from '../img/svg-icon/phone.svg';
 import mail from '../img/svg-icon/e-mail_black.svg';
@@ -45,6 +46,14 @@ export const summaryEng = {
 	projects: {
 		title: 'Projects',
 		projects: [
+			{
+				title: 'Test task for the vacancy - Junior Front-end developer',
+				technologies: '[ HTML, JavaScript, Responsive CSS, Vimeo API ]',
+				text: 'The test task is to make a slider from a video: 8 videos – 4 in a row. You can use third-party solutions for the slider. Each video should open in a pop-up. The corresponding one should be played in autoplay. Also, the pop-up should have pagination that will open the corresponding video.',
+				img: test_task_img,
+				linkProject: 'https://brodich-vlad.github.io/test-task_hulo-dev/',
+				linkGitNub: 'https://github.com/Brodich-vlad/test-task_hulo-dev.git'
+			},
 			{
 				title: 'Algorithm for packing rectangles',
 				technologies: '[ React.js,Typescript, REST API, Aдаптивний CSS,Vite, Zustand, Zod ]',
@@ -280,6 +289,14 @@ export const summaryUk = {
 	projects: {
 		title: 'Проекти',
 		projects: [
+			{
+				title: 'Тестове завдання для вакансії - Junior Front-end developer',
+				technologies: '[ HTML, JavaScript, Aдаптивний CSS, Vimeo API ]',
+				text: 'Тестове завдання зробити слайдер з відео:8 відео – 4 в ряд Для слайдера можна використовувати сторонні рішення. Кожне відео має відкриватися в поп-апі. Відповідне має відіграватися в автоплеї.Також, в поп-апі має бути пагінація яка відкриватиме відповідне відео.',
+				img: test_task_img,
+				linkProject: 'https://brodich-vlad.github.io/test-task_hulo-dev/',
+				linkGitNub: 'https://github.com/Brodich-vlad/test-task_hulo-dev.git'
+			},
 			{
 				title: 'Алгоритм пакування прямокутників',
 				technologies: '[ React.js,Typescript, REST API, Aдаптивний CSS,Vite, Zustand, Zod ]',
