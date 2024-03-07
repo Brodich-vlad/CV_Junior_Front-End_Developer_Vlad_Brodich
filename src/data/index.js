@@ -269,7 +269,7 @@ export const summaryEng = {
 			{
 				contactLogo: github,
 				contact: 'GitHub',
-				href: 'https://github.com/Brodich-vlad?tab=repositories'
+				href: 'https://github.com/Brodich-vlad'
 			},
 			{
 				contactLogo: gitlab,
@@ -521,7 +521,7 @@ export const summaryUk = {
 			{
 				contactLogo: github,
 				contact: 'GitHub',
-				href: 'https://github.com/Brodich-vlad?tab=repositories'
+				href: 'https://github.com/Brodich-vlad'
 			},
 			{
 				contactLogo: gitlab,
