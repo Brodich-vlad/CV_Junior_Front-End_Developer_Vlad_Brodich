@@ -18,6 +18,8 @@ import phone from '../img/svg-icon/phone.svg';
 import mail from '../img/svg-icon/e-mail_black.svg';
 import telegram from '../img/svg-icon/telegram_icon.svg';
 import in_icon from '../img/svg-icon/in_black.svg';
+import github from '../img/svg-icon/github.svg';
+import gitlab from '../img/svg-icon/gitlab.svg';
 
 import certificate_en from '../img/certificates/certificate_en.jpg';
 import certificate_html from '../img/certificates/certificate_html.jpg';
@@ -263,6 +265,16 @@ export const summaryEng = {
 				contactLogo: in_icon,
 				contact: 'https://www.linkedin.com/in/',
 				href: 'https://www.linkedin.com/in/%D0%B2%D0%BB%D0%B0%D0%B4-%D0%B1%D1%80%D0%BE%D0%B4%D0%B8%D1%87-3a1a95279/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B6BXqQwKdQomR3DVER3%2BjvA%3D%3D'
+			},
+			{
+				contactLogo: github,
+				contact: 'GitHub',
+				href: 'https://github.com/Brodich-vlad?tab=repositories'
+			},
+			{
+				contactLogo: gitlab,
+				contact: 'GitLab',
+				href: 'https://gitlab.com/vlad_brodich'
 			}
 		]
 	}
@@ -505,6 +517,16 @@ export const summaryUk = {
 				contactLogo: in_icon,
 				contact: 'https://www.linkedin.com/in/',
 				href: 'https://www.linkedin.com/in/%D0%B2%D0%BB%D0%B0%D0%B4-%D0%B1%D1%80%D0%BE%D0%B4%D0%B8%D1%87-3a1a95279/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B6BXqQwKdQomR3DVER3%2BjvA%3D%3D'
+			},
+			{
+				contactLogo: github,
+				contact: 'GitHub',
+				href: 'https://github.com/Brodich-vlad?tab=repositories'
+			},
+			{
+				contactLogo: gitlab,
+				contact: 'GitLab',
+				href: 'https://gitlab.com/vlad_brodich'
 			}
 		]
 	}
