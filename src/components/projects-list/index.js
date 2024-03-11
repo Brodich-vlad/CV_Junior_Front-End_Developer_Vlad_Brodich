@@ -13,7 +13,7 @@ export function ProjectsList() {
 	const arrList =(arr,lang,id)=>{
 	return arr.map(({linkProject,title,technologies,text,linkGitNub,img},i)=>{
 		return (
-			<li id={id && i === 2 ? id : undefined} lang={lang} key={getId(i)} className="projects-cart">
+			<li id={id && i === 4 ? id : undefined} lang={lang} key={getId(i)} className="projects-cart">
 				<div className="projects-cart__info">
 					{linkProject ? (
 						<Link
@@ -34,7 +34,7 @@ export function ProjectsList() {
 						href={linkGitNub}
 						target="_blank"
 						rel={'noreferrer'}
-						content={'GitNub'}
+						content={'Git'}
 					/>
 				</div>
 				{linkProject ? (

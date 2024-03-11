@@ -2,7 +2,7 @@
 export function secondProjects (data){
   let projects =[];
   for (let i = 0; i < data.length; i++) {
-    if(i > 2){
+    if(i > 4){
       projects.push(data[i])
     }
   }

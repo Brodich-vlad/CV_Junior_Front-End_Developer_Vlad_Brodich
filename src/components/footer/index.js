@@ -13,6 +13,7 @@ export function Footer() {
 				<Link
 					className={'contact-link'}
 					href={href}
+					target="_blank"
 					content={
 						<>
 							<div className="contact-logo">

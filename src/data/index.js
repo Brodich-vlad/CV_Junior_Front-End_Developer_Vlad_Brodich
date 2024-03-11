@@ -12,7 +12,8 @@ import timer from '../img/projects/timer.png';
 import tetris from '../img/projects/tetris.png';
 import calculator_ios from '../img/projects/calculator_ios.png';
 import rectangle_packing from '../img/projects/rectangle-packing.png';
-import gym from '../img/projects/gym.png';
+import gym from '../img/projects/gym-prototype.png';
+import displaying_site from '../img/projects/displaying-site.png';
 
 import phone from '../img/svg-icon/phone.svg';
 import mail from '../img/svg-icon/e-mail_black.svg';
@@ -55,6 +56,14 @@ export const summaryEng = {
 				img: gym,
 				linkProject: 'https://gym-prototype-vb.netlify.app/',
 				linkGitNub: 'https://gitlab.com/vlad_brodich/gym-prototype_f_39_dev_vb.git'
+			},
+			{
+				title: 'A site for viewing projects on different devices',
+				technologies: '[ Vue 3, Typescript, Responsive CSS, Vite ]',
+				text: 'The purpose of creating a site is to display projects on different devices. Allows you to configure the project, check adaptability, create a presentation. Also consolidate the knowledge gained while learning Vue and Typescript',
+				img: displaying_site,
+				linkProject: 'https://displaying-site-different-devices.netlify.app/',
+				linkGitNub: 'https://gitlab.com/vlad_brodich/displaying-site-different-devices.git'
 			},
 			{
 				title: 'Algorithm for packing rectangles',
@@ -168,6 +177,7 @@ export const summaryEng = {
 					'Type-Script',
 					'React.js',
 					'React Native',
+					'Vue.js',
 					'Next.js',
 					'Redux',
 					'Knowledge of version control systems: Git',
@@ -198,6 +208,11 @@ export const summaryEng = {
 	education: {
 		title: 'Education',
 		schools: [
+			{
+				profession: 'Vue.js Online course',
+				school: 'Ukraine',
+				date: 'JANUARY 2024 (1 month)'
+			},
 			{
 				profession: 'React Native Online course',
 				school: 'Ukraine',
@@ -310,8 +325,16 @@ export const summaryUk = {
 				linkGitNub: 'https://gitlab.com/vlad_brodich/gym-prototype_f_39_dev_vb.git'
 			},
 			{
+				title: 'Сайт для перегляду проектів на різних пристроях.',
+				technologies: '[ Vue 3, Typescript, Aдаптивний CSS, Vite ]',
+				text: 'Мета створення цього сайту - відображення проектів на різних пристроях. Дає змогу налаштувати проект, перевірити на адаптивність, створити презентацію. Також закріпити знання отримані при вивченні Vue та Typescript',
+				img: displaying_site,
+				linkProject: 'https://displaying-site-different-devices.netlify.app/',
+				linkGitNub: 'https://gitlab.com/vlad_brodich/displaying-site-different-devices.git'
+			},
+			{
 				title: 'Алгоритм пакування прямокутників',
-				technologies: '[ React.js,Typescript, REST API, Aдаптивний CSS,Vite, Zustand, Zod ]',
+				technologies: '[ React.js, Typescript, REST API, Aдаптивний CSS, Vite, Zustand, Zod ]',
 				text: 'Тестове завдання зробити алгоритм який розташує задані блоки в аркуші максимально ергономічно(щоб як умога більше місця було задіяно) і видасть найменьшу можливу кількість аркущів.',
 				img: rectangle_packing,
 				linkProject: 'https://rectangle-packing-algorithm-vb.netlify.app/',
@@ -420,6 +443,7 @@ export const summaryUk = {
 					'Type-Script',
 					'React.js',
 					'React Native',
+					'Vue.js',
 					'Next.js',
 					'Redux',
 					'Знання систем контролю версій: Git',
@@ -450,6 +474,11 @@ export const summaryUk = {
 	education: {
 		title: 'Освіта',
 		schools: [
+			{
+				profession: 'Курс Vue.js Oнлайн',
+				school: 'Україна',
+				date: 'СІЧЕНЬ 2024 (1 місяць)'
+			},
 			{
 				profession: 'Курс React Native Oнлайн',
 				school: 'Україна',
