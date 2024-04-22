@@ -14,7 +14,8 @@ import calculator_ios from '../img/projects/calculator_ios.png';
 import rectangle_packing from '../img/projects/rectangle-packing.png';
 import gym from '../img/projects/gym-prototype.png';
 import displaying_site from '../img/projects/displaying-site.png';
-
+import zbir from '../img/projects/44_zbir.png';
+// 
 import phone from '../img/svg-icon/phone.svg';
 import mail from '../img/svg-icon/e-mail_black.svg';
 import telegram from '../img/svg-icon/telegram_icon.svg';
@@ -40,15 +41,23 @@ export const summaryEng = {
 				users.
 				<br />
 				Since October 2023 I am participating in the VixDev Experience Program.
-				<br />
-				My main goal is to develop as a Front-end developer, to contribute to the success of the team and acquiring new
-				skills in the field of web development.
+				<br />I take part in volunteer projects of Baza-Trainee Ukraine
+				<br /> My main goal is to develop as a Front-end developer, to contribute to the success of the team and
+				acquiring new skills in the field of web development.
 			</>
 		)
 	},
 	projects: {
 		title: 'Projects',
 		projects: [
+			{
+				title: '44 Brigade',
+				technologies: '[ React.js, Responsive CSS, Monobank open API ]',
+				text: 'Baza-Trainee Ukraine volunteer project. Fundraising site for our Defenders. Great teamwork experience',
+				img: zbir,
+				linkProject: 'https://avto-for-victory.site/',
+				linkGitNub: 'https://github.com/baza-trainee/44-zbir'
+			},
 			{
 				title: 'Mobile application prototype',
 				technologies: '[ HTML, JavaScript, Responsive CSS ]',
@@ -181,6 +190,7 @@ export const summaryEng = {
 					'Next.js',
 					'Redux',
 					'Knowledge of version control systems: Git',
+					'Trello',
 					'Experience with REST ful APIs',
 					'Understanding the principles of developing adaptive and responsive design',
 					'Basics of UX/UI design',
@@ -308,6 +318,8 @@ export const summaryUk = {
 				поєднувати технічну ефективність з високоякісним дизайном. Моя мета - зробити веб-середовище доступним та
 				захоплюючим для користувачів. <br />З Жовтня 2023р. по теперішній час приймаю участь в програмі отримання
 				досвіду від компанії VixDev.
+				<br />
+				Приймаю участь у волонтерських проектах Baza-Trainee Ukraine.
 				<br /> Моїм головним прагненням є розвиток як Front-end розробника, внесення свого внеску в успіх команди та
 				здобуття нових навичок у сфері веб-розробки.
 			</>
@@ -316,6 +328,14 @@ export const summaryUk = {
 	projects: {
 		title: 'Проекти',
 		projects: [
+			{
+				title: '44 Бригада',
+				technologies: '[ React.js, Aдаптивний CSS, Monobank open API ]',
+				text: 'Волонтерський проект Baza-Trainee Ukraine. Сайт для збору коштів для наших Захисників. Чудовий досвід роботи в команді',
+				img: zbir,
+				linkProject: 'https://avto-for-victory.site/',
+				linkGitNub: 'https://github.com/baza-trainee/44-zbir'
+			},
 			{
 				title: 'Прототип мобільного додатку',
 				technologies: '[ HTML, JavaScript, Aдаптивний CSS ]',
@@ -447,6 +467,7 @@ export const summaryUk = {
 					'Next.js',
 					'Redux',
 					'Знання систем контролю версій: Git',
+					'Trello',
 					'Досвід роботи з REST ful API',
 					'Розуміння принципів розробки адаптивного та респонсивного дизайну',
 					'Основи UX/UI дизайну',
