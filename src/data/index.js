@@ -26,6 +26,9 @@ import gitlab from '../img/svg-icon/gitlab.svg';
 import certificate_en from '../img/certificates/certificate_en.jpg';
 import certificate_html from '../img/certificates/certificate_html.jpg';
 import certificate_front_end from '../img/certificates/certificate_front-end.png';
+import baza_trainee from '../img/projects/baza_trainee.jpg';
+import pdf_placeholder from '../img/svg-icon/pdf-placeholder.svg';
+import cv from '../img/documents/CV_Vlad Brodich_uk_2024.pdf';
 
 export const summaryEng = {
 	langPage: 'en',
@@ -40,10 +43,16 @@ export const summaryEng = {
 				combine technical efficiency with high-quality design. My goal is to make the web accessible and exciting for
 				users.
 				<br />
-				Since October 2023 I am participating in the VixDev Experience Program.
-				<br />I take part in volunteer projects of Baza-Trainee Ukraine
-				<br /> My main goal is to develop as a Front-end developer, to contribute to the success of the team and
-				acquiring new skills in the field of web development.
+				From February 2024 I currently participate in Baza-Trainee Ukraine volunteer projects.<br />
+				Development of new sites of various complexity and support and optimization of existing projects. <br />
+				As the Team Lead of the project, I am responsible for the organization and management of the development team. I distribute tasks, conduct code reviews, help other developers. I facilitate communication between stakeholders and the development team, ensuring a clear understanding of project requirements and timely delivery of features.<br /> Additionally, I manage risk, troubleshoot critical issues, and implement best practices in coding standards and project management.<br /> 
+				My Leadership focused on fostering team collaboration and maintaining high levels of productivity throughout the project lifecycle.<br /> 
+				 <a href='https://baza-skill.com.ua/ua/candidate/42' className={'projects-cart__info-title'} rel={'noreferrer'} target='_blank'>My resume at Baza Skill</a> <br />
+				From October 2023 I am currently participating in the receiving program
+experience from VixDev. <br />
+	The main task is to support and optimize existing projects.<br /> 
+	My main goal is to develop as a Front-end developer, to contribute to the success of the team and
+  acquiring new skills in the field of web development.
 			</>
 		)
 	},
@@ -51,11 +60,19 @@ export const summaryEng = {
 		title: 'Projects',
 		projects: [
 			{
+				title: 'Baza Trainee Ukraine',
+				technologies: '[ Next.js, SCSS, next-intl, zod, zustand, SEO optimization ]',
+				text: "The main site of Baza Trainee Ukraine. Participated as a developer and Team Lead of the project. Was responsible for the development of the site's admin panel, ensuring its functionality and convenience. Worked on SEO optimization to improve website visibility. Coordinated the work of the team, made technical decisions, monitored compliance with deadlines and the quality of completed tasks. The project is at the final stage of testing.",
+				img: baza_trainee,
+				linkProject: 'https://baza-2-front-one.vercel.app/ua',
+				linkGitNub: 'https://github.com/baza-trainee/baza-2-front'
+			},
+			{
 				title: '44 Brigade',
 				technologies: '[ React.js, Responsive CSS, Monobank open API ]',
 				text: 'Baza-Trainee Ukraine volunteer project. Fundraising site for our Defenders. Great teamwork experience',
 				img: zbir,
-				linkProject: 'https://avto-for-victory.site/',
+				linkProject: 'https://44-zbir.vercel.app/',
 				linkGitNub: 'https://github.com/baza-trainee/44-zbir'
 			},
 			{
@@ -300,7 +317,12 @@ export const summaryEng = {
 				contactLogo: gitlab,
 				contact: 'GitLab',
 				href: 'https://gitlab.com/vlad_brodich'
-			}
+			},
+			{
+				contactLogo: pdf_placeholder,
+				contact: 'CV Vlad Brodich',
+				href: cv,
+			},
 		]
 	}
 };
@@ -316,10 +338,10 @@ export const summaryUk = {
 			<>
 				Мене звати Влад. Як Front-End Розробник, я створюю інноваційні та естетично виглядаючі веб-сайти, прагнучи
 				поєднувати технічну ефективність з високоякісним дизайном. Моя мета - зробити веб-середовище доступним та
-				захоплюючим для користувачів. <br />З Жовтня 2023р. по теперішній час приймаю участь в програмі отримання
-				досвіду від компанії VixDev.
+				захоплюючим для користувачів. 
 				<br />
-				Приймаю участь у волонтерських проектах Baza-Trainee Ukraine.
+				З лютого 2024р. по теперішній час приймаю участь у волонтерських проектах Baza-Trainee Ukraine.<br />Розробка нових сайтів різної складності та підтримка оптимізація існуючих проєктів. <br />Як Team Lead проєкту, я відповідаю за організацію та керування командою розробників. Роздаю завдання, проводжу рецензії коду, допомогою іншим розробникам. Я сприяю спілкуванню між зацікавленими сторонами та командою розробників, забезпечуючи чітке розуміння вимог проекту та своєчасне надання функцій.<br /> Крім того, я керую ризиками, усуваю критичні проблеми та впроваджую найкращі практики стандартів кодування та управління проектами.<br /> Моє керівництво зосереджено на сприянні співпраці в команді та підтримці високого рівня продуктивності протягом життєвого циклу проекту. <br /><a href='https://baza-skill.com.ua/ua/candidate/42' className={'projects-cart__info-title'} rel={'noreferrer'} target='_blank'>Моє резюме на Baza Skill</a> <br />З Жовтня 2023р. по теперішній час приймаю участь в програмі отримання
+				досвіду від компанії VixDev. <br />Основне завдання підтримка оптимізація існуючих проєктів.
 				<br /> Моїм головним прагненням є розвиток як Front-end розробника, внесення свого внеску в успіх команди та
 				здобуття нових навичок у сфері веб-розробки.
 			</>
@@ -329,11 +351,19 @@ export const summaryUk = {
 		title: 'Проекти',
 		projects: [
 			{
+				title: 'Baza Trainee Ukraine',
+				technologies: '[ Next.js, SCSS, next-intl, zod, zustand, SEO оптимізація ]',
+				text: 'Головний сайт Baza Trainee Ukraine. Брав участь як розробник та Team Lead проекту. Відповідав за розробку адмінпанелі сайту, забезпечення її функціональності та зручності. Працював над SEO оптимізацією для покращення видимості сайту. Координувала роботу команди, приймала технічні рішення, контролювала дотримання термінів і якість виконаних завдань. Проєкт знаходиться на фінальній стадії тестувань.',
+				img: baza_trainee,
+				linkProject: 'https://baza-2-front-one.vercel.app/ua',
+				linkGitNub: 'https://github.com/baza-trainee/baza-2-front'
+			},
+			{
 				title: '44 Бригада',
 				technologies: '[ React.js, Aдаптивний CSS, Monobank open API ]',
 				text: 'Волонтерський проект Baza-Trainee Ukraine. Сайт для збору коштів для наших Захисників. Чудовий досвід роботи в команді',
 				img: zbir,
-				linkProject: 'https://avto-for-victory.site/',
+				linkProject: 'https://44-zbir.vercel.app/',
 				linkGitNub: 'https://github.com/baza-trainee/44-zbir'
 			},
 			{
@@ -577,7 +607,12 @@ export const summaryUk = {
 				contactLogo: gitlab,
 				contact: 'GitLab',
 				href: 'https://gitlab.com/vlad_brodich'
-			}
+			},
+			{
+				contactLogo: pdf_placeholder,
+				contact: 'CV Vlad Brodich',
+				href: cv
+			},
 		]
 	}
 };
