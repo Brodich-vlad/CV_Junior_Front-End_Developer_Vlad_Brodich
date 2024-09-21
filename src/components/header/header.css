@@ -30,7 +30,7 @@
   margin-right: 5%;
 }
 .header__nav-list__item{
-    margin-right: 1rem;
+  margin-right: 1rem;
 }
 .header__nav-list__item > a{
   display: inline-block;
@@ -161,11 +161,11 @@ color: var(--main-color-logo);
   display: block;
   width: 2.3rem;
 }
-
-.btn-lang:hover .btn-lang_txt-second{
-  height: 100%;
+@media (any-hover: hover){
+  .btn-lang:hover .btn-lang_txt-second{
+    height: 100%;
+  }
 }
-
 
 
 .burger-btn{

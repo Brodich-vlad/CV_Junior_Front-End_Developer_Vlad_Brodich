@@ -26,6 +26,8 @@ import gitlab from '../img/svg-icon/gitlab.svg';
 import certificate_en from '../img/certificates/certificate_en.jpg';
 import certificate_html from '../img/certificates/certificate_html.jpg';
 import certificate_front_end from '../img/certificates/certificate_front-end.png';
+import diploma from '../img/certificates/diploma.png';
+
 import baza_trainee from '../img/projects/baza_trainee.jpg';
 import pdf_placeholder from '../img/svg-icon/pdf-placeholder.svg';
 import cv from '../img/documents/CV_Vlad Brodich_uk_2024.pdf';
@@ -33,7 +35,7 @@ import cv from '../img/documents/CV_Vlad Brodich_uk_2024.pdf';
 export const summaryEng = {
 	langPage: 'en',
 	name: 'Vlad Brodich',
-	profession: 'Junior Front-End Developer',
+	profession: 'Front-End Developer',
 	photo: my_photo,
 	about: {
 		title: 'About Me',
@@ -45,14 +47,15 @@ export const summaryEng = {
 				<br />
 				From February 2024 I currently participate in Baza-Trainee Ukraine volunteer projects.<br />
 				Development of new sites of various complexity and support and optimization of existing projects. <br />
-				As the Team Lead of the project, I am responsible for the organization and management of the development team. I distribute tasks, conduct code reviews, help other developers. I facilitate communication between stakeholders and the development team, ensuring a clear understanding of project requirements and timely delivery of features.<br /> Additionally, I manage risk, troubleshoot critical issues, and implement best practices in coding standards and project management.<br /> 
+				As the Team Lead of the project, I am responsible for the organization and management of the development team. I distribute tasks, conduct code reviews, help other developers. I facilitate communication between stakeholders and the development team, ensuring a clear understanding of project requirements and timely completion of tasks.<br /> Additionally, I manage risk, troubleshoot critical issues, and implement best practices in coding standards and project management.<br /> 
 				My Leadership focused on fostering team collaboration and maintaining high levels of productivity throughout the project lifecycle.<br /> 
 				 <a href='https://baza-skill.com.ua/ua/candidate/42' className={'projects-cart__info-title'} rel={'noreferrer'} target='_blank'>My resume at Baza Skill</a> <br />
-				From October 2023 I am currently participating in the receiving program
-experience from VixDev. <br />
-	The main task is to support and optimize existing projects.<br /> 
-	My main goal is to develop as a Front-end developer, to contribute to the success of the team and
-  acquiring new skills in the field of web development.
+				 October 2023 to September 2024 participated in the program of receiving
+				 experience from VixDev.<br />
+				 My main task was to support and optimize existing projects<br /> 
+				Creation of application prototypes according to the description, for the further work of the team.<br /> 
+				My main goal is to develop as a Front-end developer, to contribute to the success of the team and
+				acquiring new skills in the field of web development.
 			</>
 		)
 	},
@@ -94,7 +97,7 @@ experience from VixDev. <br />
 			{
 				title: 'Algorithm for packing rectangles',
 				technologies: '[ React.js,Typescript, REST API, Aдаптивний CSS,Vite, Zustand, Zod ]',
-				text: 'The test task is to make an algorithm that will arrange the given blocks in the sheet as ergonomically as possible (so that as much space as possible is used) and will produce the smallest possible number of sheets.',
+				text: 'Test task for the Junior Front End developer position: to make an algorithm that will place the given blocks in the sheet as ergonomically as possible (so that as much space as possible is used) and will produce the smallest possible number of sheets.',
 				img: rectangle_packing,
 				linkProject: 'https://rectangle-packing-algorithm-vb.netlify.app/',
 				linkGitNub: 'https://gitlab.com/vlad_brodich/rectangle-packing-algorithm_vb.git'
@@ -198,7 +201,7 @@ experience from VixDev. <br />
 			{
 				title: 'Skills',
 				text: [
-					'HTML5, CSS3 (SCSS / SASS / LESS)',
+					'HTML5, CSS3 (SCSS / SASS / LESS), Tailwind CSS',
 					'JavaScript Es6+',
 					'Type-Script',
 					'React.js',
@@ -282,6 +285,12 @@ experience from VixDev. <br />
 				school: 'Programming school GoIT, Ukraine',
 				date: 'JUNE 2022 (2 months)',
 				imgCertificate: certificate_html
+			},
+			{
+				profession: 'Mechanical engineer',
+				school: 'Kyiv Polytechnic Institute',
+				date: 'SEPTEMBER 1997 (6 years)',
+				imgCertificate: diploma
 			}
 		]
 	},
@@ -330,7 +339,7 @@ experience from VixDev. <br />
 export const summaryUk = {
 	langPage: 'uk',
 	name: 'Влад Бродич',
-	profession: 'Junior Front-End Розробник',
+	profession: 'Front-End Розробник',
 	photo: my_photo,
 	about: {
 		title: 'Про мене',
@@ -340,20 +349,26 @@ export const summaryUk = {
 				поєднувати технічну ефективність з високоякісним дизайном. Моя мета - зробити веб-середовище доступним та
 				захоплюючим для користувачів. 
 				<br />
-				З лютого 2024р. по теперішній час приймаю участь у волонтерських проектах Baza-Trainee Ukraine.<br />Розробка нових сайтів різної складності та підтримка оптимізація існуючих проєктів. <br />Як Team Lead проєкту, я відповідаю за організацію та керування командою розробників. Роздаю завдання, проводжу рецензії коду, допомогою іншим розробникам. Я сприяю спілкуванню між зацікавленими сторонами та командою розробників, забезпечуючи чітке розуміння вимог проекту та своєчасне надання функцій.<br /> Крім того, я керую ризиками, усуваю критичні проблеми та впроваджую найкращі практики стандартів кодування та управління проектами.<br /> Моє керівництво зосереджено на сприянні співпраці в команді та підтримці високого рівня продуктивності протягом життєвого циклу проекту. <br /><a href='https://baza-skill.com.ua/ua/candidate/42' className={'projects-cart__info-title'} rel={'noreferrer'} target='_blank'>Моє резюме на Baza Skill</a> <br />З Жовтня 2023р. по теперішній час приймаю участь в програмі отримання
-				досвіду від компанії VixDev. <br />Основне завдання підтримка оптимізація існуючих проєктів.
-				<br /> Моїм головним прагненням є розвиток як Front-end розробника, внесення свого внеску в успіх команди та
+				З лютого 2024р. по теперішній час приймаю участь у волонтерських проєктах Baza-Trainee Ukraine.<br />
+				Розробка нових сайтів різної складності та підтримка оптимізація існуючих проєктів. <br />
+				Як Team Lead проєкту, я відповідаю за організацію та керування командою розробників. Роздаю завдання, проводжу рецензії коду, допомогою іншим розробникам. Я сприяю спілкуванню між зацікавленими сторонами та командою розробників, забезпечуючи чітке розуміння вимог проекту та своєчасне виконання завдань.<br /> 
+				Крім того, я керую ризиками, усуваю критичні проблеми та впроваджую найкращі практики стандартів кодування та управління проєктами.<br /> Моє керівництво зосереджено на сприянні співпраці в команді та підтримці високого рівня продуктивності протягом життєвого циклу проекту. <br /><a href='https://baza-skill.com.ua/ua/candidate/42' className={'projects-cart__info-title'} rel={'noreferrer'} target='_blank'>Моє резюме на Baza Skill</a> <br />
+				З Жовтня 2023р. по Вересень 2024 приймав участь в програмі отримання
+				досвіду від компанії VixDev. <br />
+				Основним моїм завданням була підтримка оптимізація існуючих проєктів.<br /> 
+				Створення прототипів додатків згідно опису, для подальшої роботи команди.<br /> 
+				Моїм головним прагненням є розвиток як Front-end розробника, внесення свого внеску в успіх команди та
 				здобуття нових навичок у сфері веб-розробки.
 			</>
 		)
 	},
 	projects: {
-		title: 'Проекти',
+		title: 'Проєкти',
 		projects: [
 			{
 				title: 'Baza Trainee Ukraine',
 				technologies: '[ Next.js, SCSS, next-intl, zod, zustand, SEO оптимізація ]',
-				text: 'Головний сайт Baza Trainee Ukraine. Брав участь як розробник та Team Lead проекту. Відповідав за розробку адмінпанелі сайту, забезпечення її функціональності та зручності. Працював над SEO оптимізацією для покращення видимості сайту. Координувала роботу команди, приймала технічні рішення, контролювала дотримання термінів і якість виконаних завдань. Проєкт знаходиться на фінальній стадії тестувань.',
+				text: 'Головний сайт Baza Trainee Ukraine. Брав участь як розробник та Team Lead проєкту. Відповідав за розробку адмінпанелі сайту, забезпечення її функціональності та зручності. Працював над SEO оптимізацією для покращення видимості сайту. Координувала роботу команди, приймала технічні рішення, контролювала дотримання термінів і якість виконаних завдань. Проєкт знаходиться на фінальній стадії тестувань.',
 				img: baza_trainee,
 				linkProject: 'https://baza-2-front-one.vercel.app/ua',
 				linkGitNub: 'https://github.com/baza-trainee/baza-2-front'
@@ -385,7 +400,7 @@ export const summaryUk = {
 			{
 				title: 'Алгоритм пакування прямокутників',
 				technologies: '[ React.js, Typescript, REST API, Aдаптивний CSS, Vite, Zustand, Zod ]',
-				text: 'Тестове завдання зробити алгоритм який розташує задані блоки в аркуші максимально ергономічно(щоб як умога більше місця було задіяно) і видасть найменьшу можливу кількість аркущів.',
+				text: 'Тестове завдання на посаду Junior Front End розробник: зробити алгоритм який розташує задані блоки в аркуші максимально ергономічно(щоб як умога більше місця було задіяно) і видасть найменьшу можливу кількість аркущів.',
 				img: rectangle_packing,
 				linkProject: 'https://rectangle-packing-algorithm-vb.netlify.app/',
 				linkGitNub: 'https://gitlab.com/vlad_brodich/rectangle-packing-algorithm_vb.git'
@@ -488,7 +503,7 @@ export const summaryUk = {
 			{
 				title: 'Навички',
 				text: [
-					'HTML5, CSS3 (SCSS / SASS / LESS)',
+					'HTML5, CSS3 (SCSS / SASS / LESS), Tailwind CSS',
 					'JavaScript Es6+',
 					'Type-Script',
 					'React.js',
@@ -572,6 +587,12 @@ export const summaryUk = {
 				school: 'Школа програмування GoIT, Україна',
 				date: 'ЧЕРВЕНЬ 2022 (2 місяці)',
 				imgCertificate: certificate_html
+			},
+			{
+				profession: 'Інженер-механик',
+				school: 'Київський політехнічний інститут',
+				date: 'ВЕРЕСЕНЬ 1997 (6 років)',
+				imgCertificate: diploma
 			}
 		]
 	},
@@ -612,7 +633,7 @@ export const summaryUk = {
 				contactLogo: pdf_placeholder,
 				contact: 'CV Vlad Brodich',
 				href: cv
-			},
+			}
 		]
 	}
 };
