@@ -1,0 +1,33 @@
+.section-reviews__wrap{
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem 3rem;
+  border-left: .15rem solid var(--main-color-black);
+  position: relative;
+  margin-bottom: 1.5rem;
+  /* display: flex;
+  justify-content: space-around; */
+}
+
+.section-reviews__title{
+  padding-right: 1rem; 
+  width: 12rem;
+  text-align: end;
+  transform: rotate(-90deg);
+  position: absolute;
+  bottom: 1rem;
+  left: -6.5rem;
+  background: var(--main-background-title);
+}
+
+.reviews__list-item{
+  width: 50%;
+  border: 1px solid wheat;
+  margin: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.reviews__list-item >img{
+  display: block;
+  width: 100%;
+}

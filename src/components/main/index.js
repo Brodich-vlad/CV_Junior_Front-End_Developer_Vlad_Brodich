@@ -4,6 +4,7 @@ import { EducationList } from "../education-list";
 import { ProjectsList } from "../projects-list";
 import { SkillsCarts } from "../skills-carts";
 import { ThemeContext } from "../../state/state";
+// import Reviews from "../reviews/Reviews";
 
 export function Main() {
   const state = useContext(ThemeContext);
@@ -25,9 +26,9 @@ export function Main() {
           <h2 className="section-about__title" lang={state.language}>
             {state.summary.about.title}
           </h2>
-          <p className="section-about__text" lang={state.language}>
+          <div className="section-about__text" lang={state.language}>
             {state.summary.about.text}
-          </p>
+          </div>
         </div>
       </section>
 
@@ -47,6 +48,10 @@ export function Main() {
       <section id="education" className="section-education">
         <EducationList/>
       </section>
+
+      {/* <section id="reviews" className="section-skills">
+      <Reviews/>
+      </section> */}
     </main>
   );
 }

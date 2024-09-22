@@ -108,7 +108,7 @@ body{
   background-size:contain;
   --menu-background:#f8f4f4ea;
   --menu-color:#000000;
-  --main-background-title:rgb(51, 50, 50);
+  --main-background-title:rgb(46, 45, 45);
   --about-background-title:rgb(43, 42, 42);
   --main-color-black:white;
   --main-color-white:rgba(17, 17, 17, 0.753);
@@ -121,5 +121,3 @@ body{
     font-size: 8px;
   }
 }
-
-

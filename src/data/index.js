@@ -32,6 +32,10 @@ import baza_trainee from '../img/projects/baza_trainee.jpg';
 import pdf_placeholder from '../img/svg-icon/pdf-placeholder.svg';
 import cv from '../img/documents/CV_Vlad Brodich_uk_2024.pdf';
 
+import feedback_1 from '../img/reviews/feedback_1.jpg';
+import feedback_2 from '../img/reviews/feedback_2.jpg';
+import feedback_3 from '../img/reviews/feedback_3.jpg';
+
 export const summaryEng = {
 	langPage: 'en',
 	name: 'Vlad Brodich',
@@ -41,21 +45,28 @@ export const summaryEng = {
 		title: 'About Me',
 		text: (
 			<>
-				My name is Vlad. As a Front-End Developer, I create innovative and aesthetically pleasing websites, striving
-				combine technical efficiency with high-quality design. My goal is to make the web accessible and exciting for
-				users.
-				<br />
-				From February 2024 I currently participate in Baza-Trainee Ukraine volunteer projects.<br />
-				Development of new sites of various complexity and support and optimization of existing projects. <br />
-				As the Team Lead of the project, I am responsible for the organization and management of the development team. I distribute tasks, conduct code reviews, help other developers. I facilitate communication between stakeholders and the development team, ensuring a clear understanding of project requirements and timely completion of tasks.<br /> Additionally, I manage risk, troubleshoot critical issues, and implement best practices in coding standards and project management.<br /> 
-				My Leadership focused on fostering team collaboration and maintaining high levels of productivity throughout the project lifecycle.<br /> 
-				 <a href='https://baza-skill.com.ua/ua/candidate/42' className={'projects-cart__info-title'} rel={'noreferrer'} target='_blank'>My resume at Baza Skill</a> <br />
-				 October 2023 to September 2024 participated in the program of receiving
-				 experience from VixDev.<br />
-				 My main task was to support and optimize existing projects<br /> 
-				Creation of application prototypes according to the description, for the further work of the team.<br /> 
-				My main goal is to develop as a Front-end developer, to contribute to the success of the team and
-				acquiring new skills in the field of web development.
+			<p>
+				<span> My name is Vlad. </span> 
+				As a Front-End Developer, I create innovative and aesthetically pleasing websites, striving combine technical efficiency with high-quality design. My goal is to make the web accessible and exciting for users. 
+				</p>
+				<br /> 
+				<p><span> From February 2024 until now, </span>
+				I have been participating in Baza Trainee Ukraine volunteer projects. In the position of Front-End developer.</p>
+				<p>Розробка нових сайтів різної складності та підтримка оптимізація існуючих проєктів.</p>
+				<p><span> As the Team Lead of the project, </span> I am responsible for the organization and management of the development team. I distribute tasks, conduct code reviews, help other developers. I facilitate communication between stakeholders and the development team, ensuring a clear understanding of project requirements and timely completion of tasks.</p>
+				<p>In addition, I manage risk, troubleshoot critical issues, and implement best practices in coding standards and project management.</p>
+				<p>My leadership focuses on fostering team collaboration and maintaining high levels of productivity throughout the project lifecycle.</p>
+				<p>
+				<a href='https://baza-skill.com.ua/ua/candidate/42' className={'projects-cart__info-title'} rel={'noreferrer'} target='_blank'>My resume and recommendations on Baza Skill</a></p>
+				<br /> 
+				<p><span>From October 2023 to September 2024</span> participated in the receiving program experience from VixDev. In the position of Junior Front-End developer.</p>
+				 <p>My main task was to support and optimize existing projects.</p>
+				<p>Creation of application prototypes according to the description, for the further work of the team.</p>
+				<br /> 
+				<p><span>From 2005 until now, Entrepreneur (FOP) JSC "Zhulyani" </span> Sale of auto parts.</p> 
+				<p>Installation and maintenance of goods accounting, PRRO and financial reporting programs. Setting up online stores.</p>
+				<br /> 
+				<p>My main goal is to develop as a Front-end developer, to contribute to the success of the team and acquiring new skills in the field of web development.</p>
 			</>
 		)
 	},
@@ -241,27 +252,27 @@ export const summaryEng = {
 			{
 				profession: 'Vue.js Online course',
 				school: 'Ukraine',
-				date: 'JANUARY 2024 (1 month)'
+				date: 'JANUARY 2024 | (1 month)'
 			},
 			{
 				profession: 'React Native Online course',
 				school: 'Ukraine',
-				date: 'DECEMBER 2023 (1 month)'
+				date: 'DECEMBER 2023 | (1 month)'
 			},
 			{
 				profession: 'Type-Script Online course',
 				school: 'Ukraine',
-				date: 'NOVEMBER 2023 (1 month)'
+				date: 'NOVEMBER 2023 | (1 month)'
 			},
 			{
 				profession: 'Next.js Online course',
 				school: 'Ukraine',
-				date: 'OCTOBER 2023 (2 months)'
+				date: 'OCTOBER 2023 | (2 months)'
 			},
 			{
 				profession: 'Front-End Advanced Cursor Online',
 				school: 'Programming school Cursor, Ukraine',
-				date: 'AUGUST 2023 (5 months)'
+				date: 'AUGUST 2023 | (5 months)'
 			},
 			{
 				profession: 'Front-End Online',
@@ -272,24 +283,24 @@ export const summaryEng = {
 			{
 				profession: 'English with a teacher Online',
 				school: 'English school Englishdom, Ukraine',
-				date: 'SEPTEMBER 2022 | (until now)',
+				date: 'SEPTEMBER 2022 | (9 months)',
 				imgCertificate: certificate_en
 			},
 			{
 				profession: "Marathon Java Script' IT Generation' Online",
 				school: 'Programming school GoIT, Ukraine',
-				date: 'AUGUST 2022 (4 weeks)'
+				date: 'AUGUST 2022 | (4 weeks)'
 			},
 			{
 				profession: 'Course HTML CSS Online',
 				school: 'Programming school GoIT, Ukraine',
-				date: 'JUNE 2022 (2 months)',
+				date: 'JUNE 2022 | (2 months)',
 				imgCertificate: certificate_html
 			},
 			{
 				profession: 'Mechanical engineer',
 				school: 'Kyiv Polytechnic Institute',
-				date: 'SEPTEMBER 1997 (6 years)',
+				date: 'SEPTEMBER 1997 | (5 years)',
 				imgCertificate: diploma
 			}
 		]
@@ -345,20 +356,32 @@ export const summaryUk = {
 		title: 'Про мене',
 		text: (
 			<>
-				Мене звати Влад. Як Front-End Розробник, я створюю інноваційні та естетично виглядаючі веб-сайти, прагнучи
+				<p>
+					<span> Мене звати Влад. </span> 
+				Як Front-End Розробник, я створюю інноваційні та естетично виглядаючі веб-сайти, прагнучи
 				поєднувати технічну ефективність з високоякісним дизайном. Моя мета - зробити веб-середовище доступним та
 				захоплюючим для користувачів. 
-				<br />
-				З лютого 2024р. по теперішній час приймаю участь у волонтерських проєктах Baza-Trainee Ukraine.<br />
-				Розробка нових сайтів різної складності та підтримка оптимізація існуючих проєктів. <br />
-				Як Team Lead проєкту, я відповідаю за організацію та керування командою розробників. Роздаю завдання, проводжу рецензії коду, допомогою іншим розробникам. Я сприяю спілкуванню між зацікавленими сторонами та командою розробників, забезпечуючи чітке розуміння вимог проекту та своєчасне виконання завдань.<br /> 
-				Крім того, я керую ризиками, усуваю критичні проблеми та впроваджую найкращі практики стандартів кодування та управління проєктами.<br /> Моє керівництво зосереджено на сприянні співпраці в команді та підтримці високого рівня продуктивності протягом життєвого циклу проекту. <br /><a href='https://baza-skill.com.ua/ua/candidate/42' className={'projects-cart__info-title'} rel={'noreferrer'} target='_blank'>Моє резюме на Baza Skill</a> <br />
-				З Жовтня 2023р. по Вересень 2024 приймав участь в програмі отримання
-				досвіду від компанії VixDev. <br />
-				Основним моїм завданням була підтримка оптимізація існуючих проєктів.<br /> 
-				Створення прототипів додатків згідно опису, для подальшої роботи команди.<br /> 
-				Моїм головним прагненням є розвиток як Front-end розробника, внесення свого внеску в успіх команди та
-				здобуття нових навичок у сфері веб-розробки.
+				</p>
+				<br /> 
+				<p><span> З Лютого 2024 р. по теперішній час </span>
+				приймаю участь у волонтерських проєктах Baza Trainee Ukraine. На посаді Front-End розробник.</p>
+				<p>Розробка нових сайтів різної складності та підтримка оптимізація існуючих проєктів.</p>
+				<p><span> Як Team Lead</span> проєкту, я відповідаю за організацію та керування командою розробників. Роздаю завдання, проводжу рецензії коду, допомогою іншим розробникам. Я сприяю спілкуванню між зацікавленими сторонами та командою розробників, забезпечуючи чітке розуміння вимог проекту та своєчасне виконання завдань.</p>
+				<p>Крім того, я керую ризиками, усуваю критичні проблеми та впроваджую найкращі практики стандартів кодування та управління проєктами.</p>
+				<p>Моє керівництво зосереджено на сприянні співпраці в команді та підтримці високого рівня продуктивності протягом життєвого циклу проекту.</p>
+				<p>
+				<a href='https://baza-skill.com.ua/ua/candidate/42' className={'projects-cart__info-title'} rel={'noreferrer'} target='_blank'>Моє резюме та рекомендації на Baza Skill</a></p>
+				<br /> 
+				<p><span>З Жовтня 2023 р. по Вересень 2024 р.</span> приймав участь в програмі отримання
+				досвіду від компанії VixDev. На посаді Junior Front-End розробник.</p>
+				 <p>Основним моїм завданням була підтримка оптимізація існуючих проєктів.</p>
+				<p>Створення прототипів додатків згідно опису, для подальшої роботи команди.</p>
+				<br /> 
+				<p><span>З 2005 р. по теперішній час Підприємець (ФОП) АЦ "Жуляни" </span> Продаж автозапчастин.</p> 
+				<p>Встановлення та обслуговування програм обліку товарів, ПРРО та фінансової звітності. Налаштування роботи інтернет-магазинів.</p>
+				<br /> 
+				<p>Моїм головним прагненням є розвиток як Front-end розробника, внесення свого внеску в успіх команди та
+				здобуття нових навичок у сфері веб-розробки.</p>
 			</>
 		)
 	},
@@ -543,27 +566,27 @@ export const summaryUk = {
 			{
 				profession: 'Курс Vue.js Oнлайн',
 				school: 'Україна',
-				date: 'СІЧЕНЬ 2024 (1 місяць)'
+				date: 'СІЧЕНЬ 2024 | (1 місяць)'
 			},
 			{
 				profession: 'Курс React Native Oнлайн',
 				school: 'Україна',
-				date: 'ГРУДЕНЬ 2023 (1 місяць)'
+				date: 'ГРУДЕНЬ 2023 | (1 місяць)'
 			},
 			{
 				profession: 'Курс Type-Script Oнлайн',
 				school: 'Україна',
-				date: 'ЛИСТОПАД 2023 (1 місяць)'
+				date: 'ЛИСТОПАД 2023 | (1 місяць)'
 			},
 			{
 				profession: 'Курс Next.js Oнлайн',
 				school: 'Україна',
-				date: 'ЖОВТЕНЬ 2023 (2 місяці)'
+				date: 'ЖОВТЕНЬ 2023 | (2 місяці)'
 			},
 			{
 				profession: 'Front-End Advanced Cursor Онлайн',
 				school: 'Школа програмування Cursor, Україна',
-				date: 'СЕРПЕНЬ 2023 (5 місяців)'
+				date: 'СЕРПЕНЬ 2023 | (5 місяців)'
 			},
 			{
 				profession: 'Front-End Онлайн',
@@ -574,28 +597,48 @@ export const summaryUk = {
 			{
 				profession: 'Англійська з викладачем Онлайн',
 				school: 'Школа вивченя Англійської мови Englishdom, Україна',
-				date: 'ВЕРЕСЕНЬ 2022 | (по теперішній час)',
+				date: 'ВЕРЕСЕНЬ 2022 | (9 місяців)',
 				imgCertificate: certificate_en
 			},
 			{
 				profession: "Maрафон Java Script' IT Generation' Онлайн",
 				school: 'Школа програмування GoIT, Україна',
-				date: 'СЕРПЕНЬ 2022 (4 тижні)'
+				date: 'СЕРПЕНЬ 2022 | (4 тижні)'
 			},
 			{
 				profession: 'Курс HTML CSS Oнлайн',
 				school: 'Школа програмування GoIT, Україна',
-				date: 'ЧЕРВЕНЬ 2022 (2 місяці)',
+				date: 'ЧЕРВЕНЬ 2022 | (2 місяці)',
 				imgCertificate: certificate_html
 			},
 			{
 				profession: 'Інженер-механик',
 				school: 'Київський політехнічний інститут',
-				date: 'ВЕРЕСЕНЬ 1997 (6 років)',
+				date: 'ВЕРЕСЕНЬ 1997 | (5 років)',
 				imgCertificate: diploma
 			}
 		]
 	},
+	reviews:{
+		title: 'Відгуки',
+		reviews:[
+			{
+				title:'feedback',
+				img: feedback_1
+			},
+			{
+				title:'feedback',
+				img: feedback_2
+			},
+			{
+				title:'feedback',
+				img: feedback_3
+			}
+
+		],
+	},
+
+
 	contact: {
 		title: 'Контакти',
 		contacts: [
