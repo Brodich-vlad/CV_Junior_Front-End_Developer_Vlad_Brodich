@@ -13,13 +13,15 @@ export default function Modal({data, close}) {
         ev.stopPropagation()
         close()}}>
       <div className='modal_scroll'>
-        <div className='modal_content' onClick={(ev)=>{ev.stopPropagation()}}>
-          <img src={data.img} alt={data.title}/>
-          <button type='button' 
-            className='close_btn' 
-            onClick={close}>
-              <span>&#x2716;</span>
-          </button>
+        <div className='modal'>
+          <div className='modal_content' onClick={(ev)=>{ev.stopPropagation()}}>
+            <img src={data.img} alt={data.title}/>
+            <button type='button' 
+              className='close_btn' 
+              onClick={close}>
+                <span>&#x2716;</span>
+            </button>
+          </div>
         </div>
       </div>
     </div>
