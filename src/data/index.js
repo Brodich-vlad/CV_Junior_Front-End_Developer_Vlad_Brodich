@@ -57,7 +57,7 @@ export const summaryEng = {
 				<br /> 
 				<p><span> From February 2024 until now, </span>
 				I have been participating in Baza Trainee Ukraine volunteer projects. In the position of Front-End developer.</p>
-				<p>Розробка нових сайтів різної складності та підтримка оптимізація існуючих проєктів.</p>
+				<p>Development of new sites of varying complexity and support and optimization of existing projects.</p>
 				<p><span> As the Team Lead of the project, </span> I am responsible for the organization and management of the development team. I distribute tasks, conduct code reviews, help other developers. I facilitate communication between stakeholders and the development team, ensuring a clear understanding of project requirements and timely completion of tasks.</p>
 				<p>In addition, I manage risk, troubleshoot critical issues, and implement best practices in coding standards and project management.</p>
 				<p>My leadership focuses on fostering team collaboration and maintaining high levels of productivity throughout the project lifecycle.</p>
