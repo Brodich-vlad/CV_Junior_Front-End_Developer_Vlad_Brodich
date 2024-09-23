@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { summaryEng, summaryUk } from "../../data/index.js";
-import { Header } from "../header/index.js";
-import { Main } from "../main/index.js";
-import { Footer } from "../footer/index.js";
+import { Header } from "../header/Header.jsx";
+import { Main } from "../main/Main.jsx";
+import { Footer } from "../footer/Footer.jsx";
 import { ThemeContext, stateDefault } from "../../state/state.js";
+import clsx from "clsx";
 
 export default function App() {
 	const [state, setState] = useState(stateDefault);
@@ -50,8 +51,9 @@ export default function App() {
 	};
 
 	return (
-		<ThemeContext.Provider value={{ ...state, setDark: clickDark, setLanguage: clickBtnlang }}>
-			<div className={`main-page${state.dark ? ' _dark' : ''}`}>
+		<ThemeContext.Provider 
+			value={{ ...state, setDark: clickDark, setLanguage: clickBtnlang }}>
+			<div className={clsx('main-page', state.dark && '_dark')}>
 				<Header/>
 
 				<Main lang={state.summary.langPage} data={state.summary} />

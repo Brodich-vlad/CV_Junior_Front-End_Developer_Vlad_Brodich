@@ -1,10 +1,10 @@
 import "./main.css";
 import { useContext } from "react";
-import { EducationList } from "../education-list";
-import { ProjectsList } from "../projects-list";
-import { SkillsCarts } from "../skills-carts";
+import { EducationList } from "../education-list/EducationList";
+import { ProjectsList } from "../projects-list/ProjectsList";
+import { SkillsCarts } from "../skills-carts/SkillsCarts";
 import { ThemeContext } from "../../state/state";
-// import Reviews from "../reviews/Reviews";
+import Reviews from "../reviews/Reviews";
 
 export function Main() {
   const state = useContext(ThemeContext);
@@ -49,9 +49,9 @@ export function Main() {
         <EducationList/>
       </section>
 
-      {/* <section id="reviews" className="section-skills">
+      <section id="reviews" className="section-skills">
       <Reviews/>
-      </section> */}
+      </section>
     </main>
   );
 }

@@ -9,7 +9,7 @@
   width: 80%;
   margin: 0 auto;
   padding: 1rem 3rem;
-  border-left: .15rem solid var(--main-color-black);
+  border-right: .15rem solid var(--main-color-black);
   position: relative;
 }
 
@@ -20,7 +20,7 @@
   transform: rotate(-90deg);
   position: absolute;
   bottom: 0rem;
-  left: -6.5rem;
+  right: -6.5rem;
   background: var(--about-background-title);
 }
 .footer__contact-list{

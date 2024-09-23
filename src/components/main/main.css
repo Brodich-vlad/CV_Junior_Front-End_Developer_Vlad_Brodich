@@ -427,6 +427,24 @@ h2{
     background-size: cover;
   }
 
+  .reviews-icon::before{
+    display: inline-block;
+    content: '';
+    width: 3.4rem;
+    height: 3.4rem;
+    background-image: url('../../img/svg-icon/reviews__white.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: -.5rem;
+    left: 0.5rem;
+  }
+  .main-page._dark .reviews-icon::before{
+    background-image: url('../../img/svg-icon/reviews_black.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
   .contact-icon::before{
     display: inline-block;
     content: '';

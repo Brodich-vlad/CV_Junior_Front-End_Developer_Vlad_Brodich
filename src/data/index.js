@@ -35,6 +35,11 @@ import cv from '../img/documents/CV_Vlad Brodich_uk_2024.pdf';
 import feedback_1 from '../img/reviews/feedback_1.jpg';
 import feedback_2 from '../img/reviews/feedback_2.jpg';
 import feedback_3 from '../img/reviews/feedback_3.jpg';
+import feedback_4 from '../img/reviews/feedback_4.jpg';
+import feedback_5 from '../img/reviews/feedback_5.jpg';
+import feedback_6 from '../img/reviews/feedback_6.jpg';
+import feedback_7 from '../img/reviews/feedback_7.jpg';
+import feedback_8 from '../img/reviews/feedback_8.jpg';
 
 export const summaryEng = {
 	langPage: 'en',
@@ -75,7 +80,7 @@ export const summaryEng = {
 		projects: [
 			{
 				title: 'Baza Trainee Ukraine',
-				technologies: '[ Next.js, SCSS, next-intl, zod, zustand, SEO optimization ]',
+				technologies: '[ Next.js, SCSS, next-intl, zod, zustand, SEO optimization, Docker ]',
 				text: "The main site of Baza Trainee Ukraine. Participated as a developer and Team Lead of the project. Was responsible for the development of the site's admin panel, ensuring its functionality and convenience. Worked on SEO optimization to improve website visibility. Coordinated the work of the team, made technical decisions, monitored compliance with deadlines and the quality of completed tasks. The project is at the final stage of testing.",
 				img: baza_trainee,
 				linkProject: 'https://baza-2-front-one.vercel.app/ua',
@@ -305,6 +310,44 @@ export const summaryEng = {
 			}
 		]
 	},
+	reviews:{
+		title: 'reviews',
+		reviews:[
+			{
+				title:'feedback',
+				img: feedback_1
+			},
+			{
+				title:'feedback',
+				img: feedback_2
+			},
+			{
+				title:'feedback',
+				img: feedback_3
+			},
+			{
+				title:'feedback',
+				img: feedback_4
+			},
+			{
+				title:'feedback',
+				img: feedback_5
+			},
+			{
+				title:'feedback',
+				img: feedback_6
+			},
+			{
+				title:'feedback',
+				img: feedback_7
+			},
+			{
+				title:'feedback',
+				img: feedback_8
+			}
+
+		],
+	},
 	contact: {
 		title: 'Contact',
 		contacts: [
@@ -390,7 +433,7 @@ export const summaryUk = {
 		projects: [
 			{
 				title: 'Baza Trainee Ukraine',
-				technologies: '[ Next.js, SCSS, next-intl, zod, zustand, SEO оптимізація ]',
+				technologies: '[ Next.js, SCSS, next-intl, zod, zustand, SEO оптимізація, Docker ]',
 				text: 'Головний сайт Baza Trainee Ukraine. Брав участь як розробник та Team Lead проєкту. Відповідав за розробку адмінпанелі сайту, забезпечення її функціональності та зручності. Працював над SEO оптимізацією для покращення видимості сайту. Координував роботу команди, приймав технічні рішення, контролював дотримання термінів і якість виконаних завдань. Проєкт знаходиться на фінальній стадії тестувань.',
 				img: baza_trainee,
 				linkProject: 'https://baza-2-front-one.vercel.app/ua',
@@ -633,12 +676,30 @@ export const summaryUk = {
 			{
 				title:'feedback',
 				img: feedback_3
+			},
+			{
+				title:'feedback',
+				img: feedback_4
+			},
+			{
+				title:'feedback',
+				img: feedback_5
+			},
+			{
+				title:'feedback',
+				img: feedback_6
+			},
+			{
+				title:'feedback',
+				img: feedback_7
+			},
+			{
+				title:'feedback',
+				img: feedback_8
 			}
 
 		],
 	},
-
-
 	contact: {
 		title: 'Контакти',
 		contacts: [

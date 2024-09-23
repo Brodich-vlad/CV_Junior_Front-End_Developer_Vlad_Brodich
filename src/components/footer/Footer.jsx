@@ -1,7 +1,7 @@
 import './footer.css';
 import { useContext } from "react";
 import { getId } from "../../methods/index";
-import { Link } from "../link";
+import { Link } from "../link/Link";
 import { ThemeContext } from "../../state/state";
 
 export function Footer() {

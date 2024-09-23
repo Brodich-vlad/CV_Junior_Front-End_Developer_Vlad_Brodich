@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import {getId, mainProjects, secondProjects } from "../../methods/index";
-import {Link} from "../link/index";
+import {Link} from "../link/Link";
 import { ThemeContext } from "../../state/state";
 
 export function ProjectsList() {
