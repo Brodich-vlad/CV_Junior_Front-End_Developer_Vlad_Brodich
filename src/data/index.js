@@ -81,9 +81,9 @@ export const summaryEng = {
 			{
 				title: 'Baza Trainee Ukraine',
 				technologies: '[ Next.js, SCSS, next-intl, zod, zustand, SEO optimization, Docker ]',
-				text: "The main site of Baza Trainee Ukraine. Participated as a developer and Team Lead of the project. Was responsible for the development of the site's admin panel, ensuring its functionality and convenience. Worked on SEO optimization to improve website visibility. Coordinated the work of the team, made technical decisions, monitored compliance with deadlines and the quality of completed tasks. The project is at the final stage of testing.",
+				text: "The main site of Baza Trainee Ukraine. Participated as a developer and Team Lead of the project. Was responsible for the development of the site's admin panel, ensuring its functionality and convenience. Worked on SEO optimization to improve website visibility. Coordinated the work of the team, made technical decisions, monitored compliance with deadlines and the quality of completed tasks.",
 				img: baza_trainee,
-				linkProject: 'https://baza-2-front-one.vercel.app/ua',
+				linkProject: 'https://baza-trainee.tech/uk',
 				linkGitNub: 'https://github.com/baza-trainee/baza-2-front'
 			},
 			{
@@ -434,9 +434,9 @@ export const summaryUk = {
 			{
 				title: 'Baza Trainee Ukraine',
 				technologies: '[ Next.js, SCSS, next-intl, zod, zustand, SEO оптимізація, Docker ]',
-				text: 'Головний сайт Baza Trainee Ukraine. Брав участь як розробник та Team Lead проєкту. Відповідав за розробку адмінпанелі сайту, забезпечення її функціональності та зручності. Працював над SEO оптимізацією для покращення видимості сайту. Координував роботу команди, приймав технічні рішення, контролював дотримання термінів і якість виконаних завдань. Проєкт знаходиться на фінальній стадії тестувань.',
+				text: 'Головний сайт Baza Trainee Ukraine. Брав участь як розробник та Team Lead проєкту. Відповідав за розробку адмінпанелі сайту, забезпечення її функціональності та зручності. Працював над SEO оптимізацією для покращення видимості сайту. Координував роботу команди, приймав технічні рішення, контролював дотримання термінів і якість виконаних завдань.',
 				img: baza_trainee,
-				linkProject: 'https://baza-2-front-one.vercel.app/ua',
+				linkProject: 'https://baza-trainee.tech/uk',
 				linkGitNub: 'https://github.com/baza-trainee/baza-2-front'
 			},
 			{
